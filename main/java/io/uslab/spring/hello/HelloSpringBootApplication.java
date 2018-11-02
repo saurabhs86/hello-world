@@ -17,6 +17,6 @@ public class HelloSpringBootApplication {
 	@RequestMapping("/")
 	public String hello(){
 		//return("hello world!");
-		return String.format("%s World!", greeting);
+		return String.format("%s World Universe!", greeting);
 	}
 }
